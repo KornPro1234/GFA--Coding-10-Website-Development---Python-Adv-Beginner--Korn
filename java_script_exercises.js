@@ -25,6 +25,10 @@ if ((num % 3 === 0) &&  (num % 7 === 0))
 }
 
 
+let Shelby = fizzbuzz(5);
+
+
+console.log(Shelby);
 
 
 
@@ -33,23 +37,17 @@ if ((num % 3 === 0) &&  (num % 7 === 0))
 
 
 
+/*                   ____
+                     |  |
+       /\            \  /
+      <__>            ||
+      /  \            ||
+     /    \           \/
+    /      \
+
+*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log(bigNumber);
+//console.log(bigNumber);
 
 // should return the bigger number
