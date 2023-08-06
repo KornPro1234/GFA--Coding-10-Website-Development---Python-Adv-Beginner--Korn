@@ -19,6 +19,21 @@ function fizzBuzz(input) {
 
 
 
+const message = (input % 2 === 0) ? message = 'Fizz' : None;
+    console.log(input, message);
+    console.log(message)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Finn!
