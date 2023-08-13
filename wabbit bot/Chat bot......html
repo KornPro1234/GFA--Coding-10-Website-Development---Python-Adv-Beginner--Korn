@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple AI Math</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class = "container mt-5">
+        <h1 class ="text-center">Hello this is my first AI Meth Assistant</h1>
+        <form id="userInputForm" class="mt-4">
+            <div class="form-group">
+                <label for="sentence">Enter a sentence (e.g., What is 8 plus 10? Must hav spaces):</label>
+                <input type="text" class="form-control" id="sentence" name="sentence">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="mt-4">
+            <table class="table">
+                <tr>
+                    <td>The answer for your question is:</td>
+                    <td><div id="answer"></div></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    
+
+    <script>
+        let submissionCount = 0; // Counter to track submissions
+    
+        document.getElementById('userInputForm').onsubmit = function(e) {
+          e.preventDefault();
+          let userInput = document.getElementById('sentence').value;
+          let answer = processMathStatement(userInput);
+          document.getElementById('answer').textContent = answer;
+    
+          // Increment submission count
+          submissionCount++;
+    
+          
+          if (submissionCount === 7) {
+            setTimeout(() => {
+              window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+            }, 3000);
+          }
+        }
+      </script>
+
+
+
+
+    <!-- Include Bootstrap JS (jQuery and Popper.js are required for some Bootstrap features) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="simpleMathAI_scaffold.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
